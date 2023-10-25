@@ -1,6 +1,7 @@
 import './App.css'
 import SayMyName from './components/SayMyName.jsx'
 import Pessoa from './components/Pessoa.jsx'
+import Frase from './components/frase'
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       foto="https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&cs=tinysrgb&w=600" 
       profissao={"Corredor"} 
       idade={"7 anos"}/>
+
+      <Frase/>
 
     </div>
   )
