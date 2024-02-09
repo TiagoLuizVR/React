@@ -1,16 +1,16 @@
 import './App.css'
-import Evento from './components/Evento.jsx'
-import Form from './components/Form.jsx'
-import Condicional from './components/Condicional.jsx'
+import OutraLista from './components/OutraLista'
 
 function App() {
 
+  const meusItens = ['Vue', 'React', 'Angular']
+
   return (
     <div className='classequalquer'>
+      <h1>Renderização de Listas</h1>
+      <OutraLista itens={meusItens}></OutraLista>
+      <OutraLista itens={[]}></OutraLista>
 
-      <Evento numero='1'></Evento>
-      <Form></Form>
-      <Condicional></Condicional>
 
     </div>
   )
