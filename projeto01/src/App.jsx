@@ -1,6 +1,7 @@
 import './App.css'
 import Evento from './components/Evento.jsx'
 import Form from './components/Form.jsx'
+import Condicional from './components/Condicional.jsx'
 
 function App() {
 
@@ -8,9 +9,9 @@ function App() {
     <div className='classequalquer'>
 
       <Evento numero='1'></Evento>
-
       <Form></Form>
-      
+      <Condicional></Condicional>
+
     </div>
   )
 }
