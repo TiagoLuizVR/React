@@ -1,0 +1,13 @@
+#lista {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+.itensLista {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.itensLista svg {
+    color: white;
+    font-size: 2em;
+}

@@ -1,0 +1,23 @@
+#cabecalho {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.opmenu > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.opmenu > a:hover {
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+header ~ h1 {
+    color: white;
+}

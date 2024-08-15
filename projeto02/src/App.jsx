@@ -1,11 +1,11 @@
 import './App.css'
-import Nome from './componentes/Nome.jsx'
+import MudaCor from './componentes/MudaCor'
 
 function App() {
 
   return (
     <>
-      <Nome nome={'Tiago Luiz'} idade={12} profissao={'Desenvolvedor'}></Nome>
+      <MudaCor></MudaCor>
     </>
   )
 }
